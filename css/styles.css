@@ -1,3 +1,69 @@
+/* CUSTOM-PROPS */
+:root {
+  --accent-color: #1147ab;
+  --red: #960707;
+  --yellow: #cfa93e;
+  --text-color: #333;
+  --dark-blue: #0b0a6a;
+}
+
+
+/* FONTS */
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Medium.woff2") format("woff2"),
+  url("../fonts/Raleway-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-SemiBold.woff2") format("woff2"),
+  url("../fonts/Raleway-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Regular.woff2") format("woff2"),
+  url("../fonts/Raleway-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/") format("woff2"),
+  url("../fonts/Raleway-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Black.woff2") format("woff2"),
+  url("../fonts/Raleway-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
+  url("../fonts/Raleway-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
@@ -17,11 +83,11 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: normal;
   background-color: #fff;
-  color: #222;
+  color: #000;
 }
 
 img {
@@ -30,51 +96,12 @@ img {
 }
 
 
-/* AUTOFILL-STYLES */
-/*input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border-color: transparent;
-  -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
-}*/
-
-
-/* PLACEHOLDER-STYLES */
-/*::-webkit-input-placeholder,
-::-moz-placeholder,
-:-ms-input-placeholder,
-:-moz-placeholder {
-  color: rgba(52, 49, 61, 0.5);
-  opacity: 1;
-}*/
-
-
-/* VISUALLY-HIDDEN */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1600px;
+  padding-left: 115px;
+  padding-right: 115px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,6 +110,80 @@ select:-webkit-autofill:focus {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+}
+
+.site-header {
+}
+
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advantages-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-right: auto;
+}
+
+.advantage-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advantage-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.advantage-icon {
+  color: var(--accent-color);
+  margin-right: 5px;
+}
+
+.advantage-text {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: -0.32px;
+}
+
+.call-center {
+  display: flex;
+  align-items: center;
+}
+
+.call-center-icon {
+  color: var(--accent-color);
+  margin-right: 6px;
+}
+
+.call-center-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.44px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.call-center-heading {
+  margin: 0;
+  padding-top: -5px;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 @media
