@@ -95,7 +95,6 @@ img {
   height: auto;
 }
 
-
 /* CONTAINER */
 .container {
   width: 100%;
@@ -112,7 +111,10 @@ img {
   flex-grow: 1;
 }
 
+
+/* SITE-HEADER */
 .site-header {
+  background-color: #ffffff49;
 }
 
 .site-header-container {
@@ -159,6 +161,7 @@ img {
 .call-center-icon {
   color: var(--accent-color);
   margin-right: 6px;
+  flex-shrink: 0;
 }
 
 .call-center-info {
@@ -185,6 +188,172 @@ img {
   font-weight: 600;
   text-transform: uppercase;
 }
+
+/* HERO */
+.hero {
+}
+
+.hero-wrapper {
+  display: flex;
+}
+
+.hero-left {
+  display: flex;
+  width: 55%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/network.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.networks-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  margin-top: 170px;
+  margin-left: auto;
+}
+
+.view-link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.view-img {
+  width: 36px;
+  height: 36px;
+  flex-shrink: 0;
+}
+
+.language-link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 176px;
+}
+
+.socials-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 225px;
+}
+
+.socials-item {
+}
+
+.socials-item:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.socials-link {
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-global {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.site-logo {
+  width: 160px;
+  height: 43px;
+  margin-bottom: 155px;
+}
+
+.hero-info {
+  width: 400px;
+  margin-right: auto;
+  color: #fff;
+}
+
+.hero-heading {
+  font-size: 61px;
+  font-weight: 900;
+  line-height: 63px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 18px;
+}
+
+.blue-text {
+  color: #508bff;
+}
+
+.hero-text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 37px;
+}
+
+.hero-button {
+  display: inline-flex;
+  padding: 21px 78px;
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-right {
+  display: flex;
+  width: 45%;
+}
+
+.addition-heading {
+  color: #fff;
+  font-size: 47px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+.addition-heading-territorial {
+  width: 15%;
+  background-image: linear-gradient(182deg, rgba(195, 8, 8, 0.5), rgba(195, 8, 8, 0.9)), url(../img/territorial.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.addition-heading-republic {
+  width: 15%;
+  background-image: linear-gradient(180deg, rgba(122, 93, 6, 0.5), rgba(122, 93, 6, 0.9)),
+  url(../img/republic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.addition-heading-common {
+  width: 15%;
+  background-image: linear-gradient(180deg, rgba(4, 47, 133, 0.5), rgba(4, 47, 133, 0.9)),
+  url(../img/common.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
