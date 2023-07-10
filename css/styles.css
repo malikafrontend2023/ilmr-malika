@@ -383,6 +383,7 @@ img {
 .main-link {
   display: flex;
   align-items: center;
+  width: 144px;
   padding: 13px 20px;
   border: 1px solid var(--accent-color);
   text-decoration: none;
@@ -528,7 +529,7 @@ img {
   width: 50%;
 }
 
-.laboratoriws-heading {
+.laboratories-heading {
   width: 50%;
   color: var(--accent-color);
   font-size: 36.34px;
@@ -713,6 +714,7 @@ img {
 
 .upgrade-left {
   width: 50%;
+
 }
 
 .internal-group {
@@ -759,7 +761,7 @@ img {
 }
 
 .certificate {
-  padding: -67px 50px;
+  padding: 67px 50px;
   width: 342px;
   height: 165px;
   flex-shrink: 0;
@@ -800,6 +802,225 @@ img {
   width: 686px;
   height: 165px;
   flex-shrink: 0;
+}
+
+
+
+/* OPINIONS */
+.opinions {
+  background-color: rgba(244, 247, 247, 0.00);
+  margin-top: 120px;
+}
+
+.opinions-container {
+  display: flex;
+}
+
+.opinions-left {
+  display: flex;
+  align-items: flex-end;
+  margin-right: 22px;
+}
+
+.opinions-top .main-link {
+  margin-bottom: 54px;
+}
+
+.opinions-top {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+.opinions-heading {
+  color: var(--accent-color);
+  margin: 0;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-size: 36.34px;
+  font-weight: 700;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.opinions-img-one {
+  width: 208px;
+  height: 265px;
+  flex-shrink: 0;
+  border: 11px solid #fff;
+  box-shadow: -19px 16px 64px 0px rgba(0, 0, 0, 0.50) inset, 19px -16px 64px 0px rgba(0, 0, 0, 0.50) inset;
+  margin-right: 28px;
+}
+
+.opinions-img-two {
+  width: 254px;
+  height: 324px;
+  flex-shrink: 0;
+  border: 11px solid #fff;
+  box-shadow: 10px 14px 100px 0px rgba(0, 0, 0, 0.10), -19px 16px 64px 0px rgba(0, 0, 0, 0.50) inset, 19px -16px 64px 0px rgba(0, 0, 0, 0.50) inset;
+  margin-right: 22px;
+}
+
+.opinions-img-three {
+  width: 326px;
+  height: 525px;
+  flex-shrink: 0;
+  border: 10px solid #fff;
+  box-shadow: 10px 14px 140px 0px rgba(0, 0, 0, 0.20), -19px 16px 64px 0px rgba(0, 0, 0, 0.50) inset, 19px -16px 64px 0px rgba(0, 0, 0, 0.50) inset;
+  margin-right: 75px;
+  margin-left: 100px;
+}
+
+.opinions-right {
+  width: 40%;
+}
+
+.opinions-text {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.7px;
+}
+
+.opinions-link {
+  color: var(--accent-color);
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+
+/* INDICATORS */
+.indicators {
+  background-color: rgba(244, 247, 247, 0.00);
+  margin-top: 100px;
+}
+
+.indicators-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.indicators-global-heading {
+  margin: 0;
+  margin-right: auto;
+  padding: 0;
+  padding-bottom: 20px;
+  width: 800px;
+  border-bottom: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  font-size: 36.34px;
+  font-weight: 700;
+}
+
+.indicators-wrapper {
+  margin-top: 75px;
+  display: flex;
+}
+
+.map-img {
+  width: 908px;
+  height: 590px;
+  margin-right: 12px;
+}
+
+.indicators-right {
+  width: 451px;
+  height: 652px;
+  flex-shrink: 0;
+}
+
+.indicators-title {
+  margin: 45px 55px;
+  color: #0047ff;
+  font-size: 20px;
+}
+
+.separately-text {
+  color: var(--accent-color);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 134.1%;
+}
+
+.indicators-list {
+  margin: 0;
+  margin-top: 55px;
+  padding: 0;
+  list-style: none;
+  width: 300px;
+  height: 440px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.indicators-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.indicators-item:not(:last-child) {
+  margin-bottom: 90px;
+}
+
+.indicators-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.icons {
+  width: 50%;
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.projects-icon {
+  background-color: rgba(253, 220, 220, 1);
+  padding: 21px;
+}
+
+.research-icon {
+  background-color: #c9d9f7;
+  padding: 21px 21px 21px 24px;
+}
+
+.suggestions-icon {
+  padding: 21px;
+  background-color: #fff9e4;
+}
+
+.inner {
+  width: 50%;
+  width: 134px;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+}
+
+.inner:nth-child(even) {
+  margin-right: auto;
+}
+
+.indicators-heading {
+  color: #000;
+  font-size: 48.34px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.indicators-text {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
 }
 
 
