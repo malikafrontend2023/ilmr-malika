@@ -1160,9 +1160,6 @@ img {
   flex-direction: column;
 }
 
-.partners-wrapper {
-}
-
 .parners-list {
   display: flex;
   align-items: center;
@@ -1205,6 +1202,130 @@ img {
   font-weight: 600;
   line-height: 25px;
   letter-spacing: 0.5px;
+}
+
+/* SITE-FOOTER */
+.site-footer {
+  margin-top: 80px;
+  background-color: var(--dark-blue);
+}
+
+.site-footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.site-footer-lists {
+  display: flex;
+  margin-top: 10px;
+  padding-bottom: 65px;
+  border-bottom: 1px solid #8389bf;
+}
+
+.site-footer-column {
+  width: 285px;
+  margin-right: 78px;
+}
+
+.site-footer-heading {
+  width: 285px;
+  color: #eff3fe;
+  font-weight: 700;
+  line-height: 22.5px;
+  letter-spacing: 0.55px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #8389bf;
+}
+
+.site-footer-list {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+.site-footer-item {
+  color: #bbc0d9;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.site-footer-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+
+.site-footer-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.site-footer-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.site-footer-logo {
+  width: 143px;
+  height: 43px;
+  flex-shrink: 0;
+  margin-right: auto;
+}
+
+.icons-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 36px;
+}
+
+.icons-item {
+  margin: 0;
+}
+
+.icons-item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.icon-link {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  padding-left: 10px;
+  padding-top: 12px;
+  border: 1px solid #bbc0d9;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #bbc0d9;
+}
+
+.oks-technologies {
+  display: flex;
+  align-items: center;
+}
+
+.oks-img {
+  width: 41px;
+  height: 41px;
+  margin-right: 25px;
+}
+
+.oks-heading {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: #fff;
 }
 
 
